@@ -4,7 +4,7 @@ VEEERY basic (but useful) logstash monitoring plugin for zabbix
 ## Features:
 
 - Check if logstash service is up or down on the machine and alert with a trigger
-- Stats about the number of events(in/out/filtered)
+- Stats about the number of events (in/out/filtered)
 - Check if there are failures and alert with a trigger
 - Stats about the Java heap memory
 
@@ -26,7 +26,7 @@ This only needs to be setup on the logstash node
 - Import the XML template (supports zabbix 3.2 and greater)
 - Add node to the newly imported template
 
-#### Important note
+## Important note
 This is a very little and basic plugin I wrote to monitor my resources. I just wanted to share this if you also need a handy and simple plugin to check some logstash info.
 
 
